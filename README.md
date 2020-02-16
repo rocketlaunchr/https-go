@@ -1,4 +1,4 @@
-# https-go
+# https-go [![GoDoc](http://godoc.org/github.com/rocketlaunchr/https-go?status.svg)](http://godoc.org/github.com/rocketlaunchr/https-go)
 
 Quickly create a self-signed Go HTTPS server.
 

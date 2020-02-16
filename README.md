@@ -11,13 +11,14 @@ package main
 import (
 	"log"
 	"net/http"
+	"github.com/rocketlaunchr/https-go"
 )
 
 func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { w.WriteHeader(http.StatusNoContent) })
 
-	httpServer, _ := Server("8080", GenerateOptions{Host: "thecucumber.app"})
+	httpServer, _ := https.Server("8080", https.GenerateOptions{Host: "thecucumber.app"})
 	log.Fatal(httpServer.ListenAndServeTLS("", ""))
 }
 ```

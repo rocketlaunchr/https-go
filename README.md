@@ -27,7 +27,7 @@ func main() {
 
 ### Extra Notes
 
-Since the server is self-signed, some http clients will require extra configuration to allow self-signed certificates.
+Just remember to change the url from http to https. Also configure your http client code/application to allow self-signed certificates otherwise they will spit out an error.
 
 
 Other useful packages

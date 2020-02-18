@@ -2,6 +2,7 @@
 
 Quickly create a self-signed Go HTTPS server.
 
+⭐ **the project to show your appreciation.**
 
 ## Example
 
